@@ -383,7 +383,3 @@ Claude, Codex, and Cursor load `SKILL.md` and pull in the reference files only w
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=n-shadloo/git-authoring&type=Date)](https://star-history.com/#n-shadloo/git-authoring&Date)
