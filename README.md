@@ -2,6 +2,13 @@
 
 A full git skill for AI coding agents — built for Claude, and portable to Codex, Cursor, and Gemini CLI. It has seven request-selected modes: generate an exact commit command for staged changes; choose one coherent set of files and generate staging plus commit commands; write a pull-request title and description; stage, commit, and push autonomously when explicitly told to do it all; write the release note for a version from what actually landed since the last release; review an incoming pull request and hand you the review comment or the squash-merge message to paste; or work the repository itself — branches, rebases, squashes, cherry-picks, reverts, conflicts, stashes, and recovery through the reflog.
 
+[![Security: A — Skills Directory](https://www.skillsdirectory.com/api/skills/n-shadloo-git-authoring/badge)](https://www.skillsdirectory.com/skills/n-shadloo-git-authoring)
+[![npx skills](https://img.shields.io/badge/npx_skills-add_n--shadloo%2Fgit--authoring-black?logo=npm)](https://www.skills.sh/n-shadloo/git-authoring/git-authoring)
+![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-D97757?logo=anthropic&logoColor=white)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+[![License: MIT](https://img.shields.io/github/license/n-shadloo/git-authoring)](https://github.com/n-shadloo/git-authoring/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/n-shadloo/git-authoring?style=flat&logo=github)](https://github.com/n-shadloo/git-authoring/stargazers)
+
 ## Why
 
 Most commit-message helpers stop at the format: they slap a `type:` on the front and call it done. The format is the easy part. The hard part is choosing the right type, writing a subject that actually says what changed, and using the body to record *why* — the context the diff can't show and that you'll want back six months later when `git blame` drops you on a line. This skill treats the format as table stakes and spends its effort on intent — for pull requests and release notes as much as commits.
@@ -366,6 +373,17 @@ git-authoring/
 
 Claude, Codex, and Cursor load `SKILL.md` and pull in the reference files only when a change calls for them; `GEMINI.md` and `AGENTS.md` carry the same guidance for agents that read a single always-on file.
 
+## Related Skills
+
+| Skill | Scope | Security Grade |
+| :--- | :--- | :--- |
+| [**secure-code-auditor**](https://github.com/n-shadloo/secure-code-auditor) | Backend security auditing & secure-by-default code generation for Django/DRF and general backends (OWASP Top 10:2025, API Top 10, ASVS 5.0). | [![Security: A](https://www.skillsdirectory.com/api/skills/n-shadloo-secure-code-auditor/badge)](https://www.skillsdirectory.com/skills/n-shadloo-secure-code-auditor) |
+| [**frontend-production-engineer**](https://github.com/n-shadloo/frontend-production-engineer) | Production-grade Next.js, React, and TypeScript engineering built to pair cleanly with a Django + DRF backend. | [![Security: A](https://www.skillsdirectory.com/api/skills/n-shadloo-frontend-production-engineer/badge)](https://www.skillsdirectory.com/skills/n-shadloo-frontend-production-engineer) |
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=n-shadloo/git-authoring&type=Date)](https://star-history.com/#n-shadloo/git-authoring&Date)
